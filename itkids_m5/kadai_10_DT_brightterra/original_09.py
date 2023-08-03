@@ -1,13 +1,4 @@
-from mcpi.minecraft import minecraft
 
-mc = minecraft.Minecraft.create()
-
-block = mc.getBlockWithData(0, 0, 0)
-print(f"ID = {block.id}")
-print(f"Data = {block.data}")
-
-# ID = 1
-# Data = 0
 
 def get_building_data(x, y, z, x_range, y_range, z_range):
     """
@@ -51,16 +42,3 @@ def judge_get_block(get_blocks, target_block):
 # ignore_blocks = [[8, 0], [13, 0], [12, 0], [16, 1], [15, 0]]
 # 8,0:水 13,0:砂利, 12,0:砂
 # 16,0:石炭鉱石, 15,0:鉄鉱石
-
-def judge_ignore_block(ignore_blocks, target_block):
-    """
-    取得しないブロックかどうかの判定
-    :param ignore_blocks: 取得しないブロックの種類を指定する ブロックidのリスト
-    :param target_block: minecraft内で配置されているブロックid
-    :return: target_blockがignore_blocksに含まれているならFalse、含まれていないならTrue
-    """
-    for ignore_block in ignore_blocks:
-        if ignore_block[0] == target_block.id and ignore_block[1] == target_block.data:
-            return False
-    return True
-

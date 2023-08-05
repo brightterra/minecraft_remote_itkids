@@ -1,3 +1,7 @@
+from mcpi.minecraft import minecraft
+
+mc = minecraft.Minecraft.create()
+
 def get_building_data(x, y, z, x_range, y_range, z_range, output_path, get_blocks=None, ignore_blocks=None):
     """
     建造物をcsvデータとして出力する

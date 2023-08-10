@@ -1,0 +1,18 @@
+from mcje.minecraft import Minecraft
+import param_MCJE as param
+from time import sleep
+
+def Sentaku():
+    mc.postToChat("どれを選びますか？下の中から一つ選んでクリックしてね。")
+
+def Kinkakuji(mc, width=20):
+    mc.setBlocks(-width, param.Y_SEA + 1, -width,   width, param.Y_SEA, width, param.HARF_STONE)
+
+def Ginkakuji():
+    mc.setBlocks
+
+
+if __name__ == "__main__":
+    mc = Minecraft.create(port=param.PORT_MC)
+    
+    Kinkakuji(mc, width=20)

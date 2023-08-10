@@ -12,8 +12,11 @@ def Kinkakuji(mc, width=40):
     mc.setBlocks(-width+2, param.Y_SEA,   -width+2,    width-2,  param.Y_SEA+2, width-2,  param.AIR       )
 
 
-def Ginkakuji():
-    mc.setBlocks
+def Ginkakuji(mc, width=40):
+    mc.setBlocks(-width,   param.Y_SEA,   -width,      width,    param.Y_SEA,   width,    param.STONE     )
+    mc.setBlocks(-width,   param.Y_SEA+1, -width,      width,    param.Y_SEA+1, width,    param.HARF_STONE)
+    mc.setBlocks(-width+1, param.Y_SEA,   -width+1,    width-1,  param.Y_SEA+2, width-1,  param.FENCE     )
+    mc.setBlocks(-width+2, param.Y_SEA,   -width+2,    width-2,  param.Y_SEA+2, width-2,  param.AIR       )
 
 
 if __name__ == "__main__":

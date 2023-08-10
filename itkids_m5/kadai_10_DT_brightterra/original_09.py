@@ -27,7 +27,7 @@ if __name__ == "__main__":
     mc.postToChat("axis_flat module main part")
     mc.postToChat("reset_minecraft_world")
 
-    reset_minecraft_world(mc, width=100)
+    reset_minecraft_world(mc, width=40)
     # draw_XYZ_axis(mc, wait=0.2)
     # clear_XYZ_axis(mc, wait=0)
 

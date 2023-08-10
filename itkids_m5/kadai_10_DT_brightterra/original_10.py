@@ -18,4 +18,4 @@ def Ginkakuji():
 if __name__ == "__main__":
     mc = Minecraft.create(port=param.PORT_MC)
     
-    Kinkakuji(mc, width=80)
+    Kinkakuji(mc, width=80, width2=40)

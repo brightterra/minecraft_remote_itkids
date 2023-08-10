@@ -28,6 +28,7 @@ GOLD_BLOCK = "gold_block"
 IRON_BLOCK = "iron_block"
 GLOWSTONE = "glowstone"
 SEA_LANTERN_BLOCK = "sea_lantern"
+HARF_STONE="stone_slab"
 
 # some good blocks for grid like patterns you can count blocks easily
 GLASS = "glass"

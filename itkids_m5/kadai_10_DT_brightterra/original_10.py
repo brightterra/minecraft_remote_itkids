@@ -7,7 +7,7 @@ def Sentaku():
 
 def Kinkakuji(mc, width=20):
     mc.setBlocks(-width,   param.Y_SEA+1, -width,    width,    param.Y_SEA+1, width,    param.HARF_STONE)
-    mc.setBlocks(-width+1, param.Y_SEA+1, -width+1,  width-1,  param.Y_SEA+1, width-1,  param.STONE     )
+    mc.setBlocks(-width+1, param.Y_SEA+1, -width+1,  width-1,  param.Y_SEA+1, width-1,  param.DARK      )
     mc.setBlocks(-width+1, param.Y_SEA+2, -width+1,  width-1,  param.Y_SEA+2, width-1,  param.FENCE     )
     mc.setBlocks(-width+2, param.Y_SEA+2, -width+2,  width-2,  param.Y_SEA+2, width-2,  param.AIR       )
     mc.setBlocks(-width+1, param.Y_SEA+2, -width+4,  -width+1, param.Y_SEA+2, width,    param.AIR       )

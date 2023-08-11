@@ -9,7 +9,7 @@ def Kinkakuji(mc, width=20):
     mc.setBlocks(-width*2, param.Y_SEA,   -width*2,  width*2,  param.Y_SEA,   width*2,  param.WATER  )
     mc.setBlocks(-width,   param.Y_SEA,   -width,    width,    param.Y_SEA,   width,    param.STONE  )
     mc.setBlocks(-width,   param.Y_SEA+1, -width,    width,    param.Y_SEA+1, width,    param.FENCE  )
-    mc.setBlocks(-width,   param.Y_SEA+1, -width,    width,    param.Y_SEA+1, width,    param.AIR    )
+    mc.setBlocks(-width+1, param.Y_SEA+1, -width+1,  width-1,  param.Y_SEA+1, width-1,  param.AIR    )
     mc.setBlocks(-width+1, param.Y_SEA+2, -width+1,  width-1,  param.Y_SEA+2, width-1,  param.SPRUCE )
     mc.setBlocks(-width+1, param.Y_SEA+3, -width+1,  width-1,  param.Y_SEA+3, width-1,  param.FENCE  )
     mc.setBlocks(-width+2, param.Y_SEA+3, -width+2,  width-2,  param.Y_SEA+3, width-2,  param.AIR    )

@@ -10,7 +10,8 @@ def Kinkakuji(mc, width=20):
     mc.setBlocks(-width+1, param.Y_SEA+1, -width+1,  width-1,  param.Y_SEA+1, width-1,  param.STONE     )
     mc.setBlocks(-width+1, param.Y_SEA+2, -width+1,  width-1,  param.Y_SEA+2, width-1,  param.FENCE     )
     mc.setBlocks(-width+2, param.Y_SEA+2, -width+2,  width-2,  param.Y_SEA+2, width-2,  param.AIR       )
-    mc.setBlocks(-width+1, param.Y_SEA+2, -width+3,  -width+1, param.Y_SEA+2, width+1,  param.AIR       )
+    mc.setBlocks(-width+1, param.Y_SEA+2, -width+4,  -width+1, param.Y_SEA+2, width,    param.AIR       )
+    mc.setBlocks(-width+1, param.Y_SEA+2, width-1,   width+10, param.Y_SEA+2, width+1,  param.AIR)
 
 if __name__ == "__main__":
     mc = Minecraft.create(port=param.PORT_MC)

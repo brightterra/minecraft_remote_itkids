@@ -34,6 +34,7 @@ HARF_SPRUCE = "spruce_slab"
 FENCE = "spruce_fence"
 
 # some good blocks for grid like patterns you can count blocks easily
+WATER = "water"
 GLASS = "glass"
 TNT = "tnt"
 DIAMOND_BLOCK = "diamond_block"

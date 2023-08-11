@@ -32,7 +32,7 @@ SEA_LANTERN_BLOCK = "sea_lantern"
 HARF_STONE = "stone_slab"
 HARF_SPRUCE = "spruce_slab"
 FENCE = "spruce_fence"
-CONCRETE = "concrete"
+CONCRETE = "white_concrete"
 
 # some good blocks for grid like patterns you can count blocks easily
 WATER = "water"

@@ -22,8 +22,8 @@ PORT_MC = 14712
 
 # block IDs  You can find IDs here: https://minecraft-ids.grahamedgecombe.com/
 AIR = "air"
-FENCE = "dark_oak_fence"
-DARK = "oak_wood_plank"
+FENCE = "spruce_fence"
+DARK = "spruce_wood_plank"
 STONE = "stone"
 GRASS_BLOCK = "grass_block"
 GOLD_BLOCK = "gold_block"

@@ -13,5 +13,5 @@ if __name__ == "__main__":
 
     mc.postToChat("reset_minecraft_world")
 
-    reset_minecraft_world(mc, width=40)
+    reset_minecraft_world(mc, width=60)
     # clear_XYZ_axis(mc, wait=0)

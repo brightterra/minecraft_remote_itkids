@@ -30,4 +30,3 @@ if __name__ == "__main__":
     reset_minecraft_world(mc, width=40)
     # draw_XYZ_axis(mc, wait=0.2)
     # clear_XYZ_axis(mc, wait=0)
-

@@ -1,16 +1,3 @@
-"""
-Draw x, y, z axis in the Minecraft world
-    x: stone
-    y: grass/dirt
-    z: gold
-Flatten the world
-    width: Size of flat world to produce.
-           x, z: from -widh to width
-           y: from AXIS_BOTTOM to AXIS_TOP
-
-mc: an instance of Minecraft must be created beforehand
-"""
-
 from mcje.minecraft import Minecraft
 import param_MCJE as param
 

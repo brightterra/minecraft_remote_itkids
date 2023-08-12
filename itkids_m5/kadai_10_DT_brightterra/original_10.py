@@ -64,7 +64,7 @@ def Kinkakuji(mc, width=20):
     mc.setBlocks(-width+5,  param.Y_SEA+20, -width+5,   width-5,   param.Y_SEA+20, width-5,    param.GOLD_BLOCK )
     mc.setBlocks(-width+8,  param.Y_SEA+21, -width+8,   width-8,   param.Y_SEA+21, width-8,    param.GOLD_BLOCK )
     mc.setBlocks(-width+10, param.Y_SEA+22, -width+10,  width-10,  param.Y_SEA+22, width-10,   param.GOLD_BLOCK )
-    mc.setBlocks(-width+11, param.Y_SEA+23, -width+11,  width-11,  param.Y_SEA+23, width-11,   param.GOLD_BLOCK )
+    mc.setBlocks(-width+11, param.Y_SEA+23, -width+11,  width-11,  param.Y_SEA+24, width-11,   param.GOLD_BLOCK )
     mc.setBlocks(width, param.Y_SEA, width,  width, param.Y_SEA, width,  )
     mc.setBlocks(width, param.Y_SEA, width,  width, param.Y_SEA, width,  )
     mc.setBlocks(width, param.Y_SEA, width,  width, param.Y_SEA, width,  )

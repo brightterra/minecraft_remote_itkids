@@ -50,4 +50,6 @@ def Kinkakuji(mc, width=20):
 if __name__ == "__main__":
     mc = Minecraft.create(port=param.PORT_MC)
     
+    mc.postToChat("I`m going to bulit Kinkakuji!")
+    sleep(1)
     Kinkakuji(mc, width=20)

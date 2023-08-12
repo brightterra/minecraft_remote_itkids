@@ -58,7 +58,6 @@ def Kinkakuji(mc, width=20):
     mc.setBlocks(width, param.Y_SEA, width,  width, param.Y_SEA, width,  )
     mc.setBlocks(width, param.Y_SEA, width,  width, param.Y_SEA, width,  )
     mc.setBlocks(width, param.Y_SEA, width,  width, param.Y_SEA, width,  )
-    mc.setBlocks(width, param.Y_SEA, width,  width, param.Y_SEA, width,  )
     
 
 if __name__ == "__main__":

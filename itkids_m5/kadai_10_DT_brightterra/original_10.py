@@ -6,6 +6,9 @@ def Sentaku():
     mc.postToChat("どれを選びますか？下の中から一つ選んでクリックしてね。")
 
 def Kinkakuji(mc, width=20):
+    mc.setBlocks(-width,    param.Y_SEA+1,  -width,     width,     param.AXIS_TOP, width,      param.AIR        )
+    mc.setBlocks(-width,    param.Y_SEA-1,  -width,     width,     0,              width,      param.STONE      )
+    mc.setBlocks(-width,    param.Y_SEA,    -width,     width,     param.Y_SEA,    width,      param.GRASS_BLOCK)
     mc.setBlocks(-width*2,  param.Y_SEA,    -width*2,   width*2,   param.Y_SEA,    width*2,    param.WATER      )
     mc.setBlocks(-width,    param.Y_SEA,    -width,     width,     param.Y_SEA,    width,      param.STONE      )
     mc.setBlocks(-width+1,  param.Y_SEA+1,  -width+1,   width-1,   param.Y_SEA+1,  width-1,    param.FENCE      )
@@ -74,8 +77,4 @@ if __name__ == "__main__":
     
     mc.postToChat("I`m going to bulit Kinkakuji!")
     sleep(1)
-    set(mc, width=60)
-    mc.setBlocks(-width, param.Y_SEA+1, -width,   width, param.AXIS_TOP, width,   param.AIR        )
-    mc.setBlocks(-width, param.Y_SEA-1, -width,   width, 0             , width,   param.STONE      )
-    mc.setBlocks(-width, param.Y_SEA,   -width,   width, param.Y_SEA   , width,   param.GRASS_BLOCK)
     Kinkakuji(mc, width=20)

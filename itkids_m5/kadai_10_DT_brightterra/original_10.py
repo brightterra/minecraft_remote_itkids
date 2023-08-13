@@ -79,4 +79,4 @@ if __name__ == "__main__":
     
     mc.postToChat("I`m going to bulit Kinkakuji!")
     sleep(1)
-    Kinkakuji(mc, width=20)
+    Kinkakuji(mc, width=20, X=0, Z=0)

@@ -69,11 +69,11 @@ def Kinkakuji(mc, width=20 ,X=0 ,Z=0):
     mc.setBlocks(-width+7+X,  param.Y_SEA+18, -width+7+Z,   width-7+X,   param.Y_SEA+18, width-7+Z,    param.SPRUCE     )
     mc.setBlocks(-width+10+X, param.Y_SEA+19, -width+10+Z,  width-10+X,  param.Y_SEA+19, width-10+Z,   param.SPRUCE     )
     mc.setBlocks(-width+12+X, param.Y_SEA+20, -width+12+Z,  width-12+X,  param.Y_SEA+20, width-12+Z,   param.SPRUCE     )
-    mc.setBlocks(width+X, param.Y_SEA, width+Z,  width+X, param.Y_SEA, width,  )
-    mc.setBlocks(width+X, param.Y_SEA, width+Z,  width+X, param.Y_SEA, width,  )
-    mc.setBlocks(width+X, param.Y_SEA, width+Z,  width+X, param.Y_SEA, width,  )
-    mc.setBlocks(width+X, param.Y_SEA, width+Z,  width+X, param.Y_SEA, width,  )
-    mc.setBlocks(width+X, param.Y_SEA, width+Z,  width+X, param.Y_SEA, width,  )
+    mc.setBlocks(width+X, param.Y_SEA, width+Z,  width+X, param.Y_SEA, width+Z,  )
+    mc.setBlocks(width+X, param.Y_SEA, width+Z,  width+X, param.Y_SEA, width+Z,  )
+    mc.setBlocks(width+X, param.Y_SEA, width+Z,  width+X, param.Y_SEA, width+Z,  )
+    mc.setBlocks(width+X, param.Y_SEA, width+Z,  width+X, param.Y_SEA, width+Z,  )
+    mc.setBlocks(width+X, param.Y_SEA, width+Z,  width+X, param.Y_SEA, width+Z,  )
     
 
 if __name__ == "__main__":

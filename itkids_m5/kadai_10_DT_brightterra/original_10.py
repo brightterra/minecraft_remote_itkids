@@ -169,11 +169,11 @@ def Kinkakuji(mc, width=20 ,X=0 ,Z=0):
     mc.setBlock( width-1+X,   param.Y_SEA+15, width-1+Z,    param.LANTERN )
     mc.setBlocks(-width+12+X, param.Y_SEA+21, -width+12+Z,  width-12+X,  param.Y_SEA+21, width-12+Z,   param.FENCE      )
     mc.setBlocks(-width+13+X, param.Y_SEA+21, -width+13+Z,  width-13+X,  param.Y_SEA+21, width-13+Z,   param.AIR        )
-    mc.setBlocks(-width+15+X, param.Y_SEA+22, -width+15+Z,  width-15+X,  param.Y_SEA+26, width-15+Z,   param.GOLD_BLOCK )
+    mc.setBlocks(-width+15+X, param.Y_SEA+21, -width+15+Z,  width-15+X,  param.Y_SEA+24, width-15+Z,   param.GOLD_BLOCK )
+    mc.setBlocks(-width+15+X, param.Y_SEA+23, -width+15+Z,  width-15+X,  param.Y_SEA+23, width-15+Z,   param.DARK       )
     mc.setBlocks(-width+15+X, param.Y_SEA+25, -width+15+Z,  width-15+X,  param.Y_SEA+25, width-15+Z,   param.DARK       )
-    mc.setBlocks(-width+15+X, param.Y_SEA+27, -width+15+Z,  width-15+X,  param.Y_SEA+27, width-15+Z,   param.DARK       )
-    mc.setBlocks(-width+16+X, param.Y_SEA+22, -width+16+Z,  width-16+X,  param.Y_SEA+26, width-16+Z,   param.AIR        )
-    mc.setBlocks(-width+16+X, param.Y_SEA+27, -width+16+Z,  width-16+X,  param.Y_SEA+27, width-16+Z,   param.GLOWSTONE  )
+    mc.setBlocks(-width+16+X, param.Y_SEA+21, -width+16+Z,  width-16+X,  param.Y_SEA+24, width-16+Z,   param.AIR        )
+    mc.setBlocks(-width+16+X, param.Y_SEA+25, -width+16+Z,  width-16+X,  param.Y_SEA+25, width-16+Z,   param.GLOWSTONE  )
 
 if __name__ == "__main__":
     mc = Minecraft.create(port=param.PORT_MC)

@@ -289,6 +289,7 @@ def Kinkakuji(mc, width=20 ,X=0 ,Z=0):
     mc.setBlocks(-width+16+X, param.Y_SEA+30, -width+16+Z,  width-16+X,  param.Y_SEA+30, width-16+Z,   param.BLACKSTONE )
     mc.setBlocks(-width+18+X, param.Y_SEA+31, -width+18+Z,  width-18+X,  param.Y_SEA+32, width-18+Z,   param.BLACKSTONE )
     mc.setBlocks(X,           param.Y_SEA+33, Z,            X,           param.Y_SEA+35, Z,            param.BLACKSTONE )
+    mc.setBlock( X,           param.Y_SEA+36, Z,            param.GOLD_BLOCK)
 
 if __name__ == "__main__":
     mc = Minecraft.create(port=param.PORT_MC)

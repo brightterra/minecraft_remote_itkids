@@ -34,7 +34,7 @@ HARF_STONE = "stone_slab"
 HARF_SPRUCE = "spruce_slab"
 FENCE = "spruce_fence"
 CONCRETE = "white_concrete"
-NETHERITE = "netherite_block"
+BlACKSTONE = "polished_blackstone"
 
 # some good blocks for grid like patterns you can count blocks easily
 WATER = "water"

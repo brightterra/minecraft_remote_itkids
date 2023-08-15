@@ -287,9 +287,15 @@ def Kinkakuji(mc, width=20 ,X=0 ,Z=0):
     mc.setBlocks(-width+12+X, param.Y_SEA+28, -width+12+Z,  width-12+X,  param.Y_SEA+28, width-12+Z,   param.BLACKSTONE )
     mc.setBlocks(-width+14+X, param.Y_SEA+29, -width+14+Z,  width-14+X,  param.Y_SEA+29, width-14+Z,   param.BLACKSTONE )
     mc.setBlocks(-width+16+X, param.Y_SEA+30, -width+16+Z,  width-16+X,  param.Y_SEA+30, width-16+Z,   param.BLACKSTONE )
-    mc.setBlocks(-width+18+X, param.Y_SEA+31, -width+18+Z,  width-18+X,  param.Y_SEA+32, width-18+Z,   param.BLACKSTONE )
+    mc.setBlocks(-width+17+X, param.Y_SEA+31, -width+17+Z,  width-17+X,  param.Y_SEA+31, width-17+Z,   param.BLACKSTONE )
+    mc.setBlocks(-width+18+X, param.Y_SEA+32, -width+18+Z,  width-18+X,  param.Y_SEA+32, width-18+Z,   param.BLACKSTONE )
     mc.setBlocks(X,           param.Y_SEA+33, Z,            X,           param.Y_SEA+35, Z,            param.BLACKSTONE )
     mc.setBlock( X,           param.Y_SEA+36, Z,            param.GOLD_BLOCK)
+    mc.setBlock( -width+6+X,  param.Y_SEA+25, -width+6+Z,   param.LANTERN )
+    mc.setBlock( width-6+X,   param.Y_SEA+25, -width+6+Z,   param.LANTERN )
+    mc.setBlock( -width+6+X,  param.Y_SEA+25, width-6+Z,    param.LANTERN )
+    mc.setBlock( width-6+X,   param.Y_SEA+25, width-6+Z,    param.LANTERN )
+
 
 if __name__ == "__main__":
     mc = Minecraft.create(port=param.PORT_MC)

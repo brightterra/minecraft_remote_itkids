@@ -35,3 +35,5 @@ python hello.py
 python axis_flat.py
 python kadai_01.py
 ```
+
+[<img src="2023-08-15_17.09.26.png" width="20" >](2023-08-15_17.09.26.png)

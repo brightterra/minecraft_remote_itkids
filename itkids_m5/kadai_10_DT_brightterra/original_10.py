@@ -22,7 +22,7 @@ def Kinkakuji(mc, width=20 ,X=0 ,Z=0):
     mc.setBlocks(-width+4+X,  param.Y_SEA+3,  -width+12+Z,  width-4+X,   param.Y_SEA+8,  -width+12+Z,  param.SPRUCE     )
     mc.setBlocks(-width+4+X,  param.Y_SEA+6,  -width+12+Z,  width-4+X,   param.Y_SEA+6,  width-4+Z,    param.DARK       )
     mc.setBlocks(-width+4+X,  param.Y_SEA+8,  -width+12+Z,  width-4+X,   param.Y_SEA+8,  width-4+Z,    param.DARK       )
-    mc.setBlocks(-width+5+X,  param.Y_SEA+3,  -width+14+Z,  width-5+X,   param.Y_SEA+8,  width-5+Z,    param.AIR        )
+    mc.setBlocks(-width+5+X,  param.Y_SEA+3,  -width+13+Z,  width-5+X,   param.Y_SEA+8,  width-5+Z,    param.AIR        )
     mc.setBlocks(-width+4+X,  param.Y_SEA+3,  -width+4+Z,   -width+4+X,  param.Y_SEA+8,  -width+4+Z,   param.DARK       )
     mc.setBlock( -width+4+X,  param.Y_SEA+6,  -width+3+Z,   param.FENCE      )
     mc.setBlock( -width+4+X,  param.Y_SEA+7,  -width+3+Z,   param.TORCH      )

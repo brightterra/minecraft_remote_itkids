@@ -36,4 +36,16 @@ python axis_flat.py
 python kadai_01.py
 ```
 
-[<img src="2023-08-15_17.09.26.png" width="20" >](2023-08-15_17.09.26.png)
+[<img src="2023-08-15_17.09.26.png" width="400" >](2023-08-15_17.09.26.png)
+
+...minecraft
+/tp 0 100 0
+/time set day
+/weather clear
+...
+
+...bash
+cd itkids_m5/kadai_10_DT_brightterra
+ls -la
+python original_10.py
+...

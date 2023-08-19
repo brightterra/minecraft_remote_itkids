@@ -5,7 +5,7 @@ from time import sleep
 def Sentaku():
     mc.postToChat("どれを選びますか？下の中から一つ選んでクリックしてね。")
 
-def Kinkakuji(mc, width=20 ,X=-103 ,Z=-116):
+def Kinkakuji(mc, width=20 ,X=3815 ,Z=-1913):
     mc.setBlocks(-width*2+X,  param.Y_SEA+1,  -width*2+Z,   width*2+X,   param.AXIS_TOP, width*2+Z,    param.AIR        )
     mc.setBlocks(-width*2+X,  param.Y_SEA,    -width*2+Z,   width*2+X,   param.Y_SEA,    width*2+Z,    param.GRASS_BLOCK)
     mc.setBlocks(-width*2+X,  param.Y_SEA,    -width*2+Z,   width*2+X,   param.Y_SEA,    width*2+Z,    param.WATER      )

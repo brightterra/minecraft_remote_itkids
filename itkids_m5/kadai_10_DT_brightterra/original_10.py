@@ -213,7 +213,7 @@ def Kinkakuji(mc, width=20 ,X=3815 ,Z=-1913):
     mc.setBlock( width-15+X,  param.Y_SEA+14, -width+6+Z,   param.TORCH      )
     mc.setBlock( width-16+X,  param.Y_SEA+13, -width+5+Z,   param.FENCE      )
     mc.setBlock( width-16+X,  param.Y_SEA+14, -width+5+Z,   param.TORCH      )
-    mc.setBlocks(-width+3+X,  param.Y_SEA+16, -width+3+Z,   width-3+X,   param.Y_SEA+16, width-3+X,    param.GOLD_BLOCK )
+    mc.setBlocks(-width+3+X,  param.Y_SEA+16, -width+3+Z,   width-3+X,   param.Y_SEA+16, width-3+Z,    param.GOLD_BLOCK )
     mc.setBlocks(-width+1+X,  param.Y_SEA+17, -width+1+Z,   width-1+X,   param.Y_SEA+17, width-1+Z,    param.BLACKSTONE )
     mc.setBlocks(-width+0+X,  param.Y_SEA+18, -width+0+Z,   width-0+X,   param.Y_SEA+18, width-0+Z,    param.HARF_BLACK )
     mc.setBlocks(-width+1+X,  param.Y_SEA+18, -width+1+Z,   width-1+X,   param.Y_SEA+18, width-1+Z,    param.AIR        )
@@ -302,4 +302,4 @@ if __name__ == "__main__":
     
     mc.postToChat("I`m going to bulid Kinkakuji!")
     sleep(1)
-    Kinkakuji(mc, width=20, X=0, Z=0)
+    Kinkakuji(mc, width=20, X=9942, Z=1304)

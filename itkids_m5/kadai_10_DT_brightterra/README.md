@@ -49,3 +49,35 @@ cd itkids_m5/kadai_10_DT_brightterra
 ls -la
 python original_10.py
 ```
+
+夜景の場合
+
+[<img src="2023-08-19_12.55.10.png" width="400" >](2023-08-19_12.55.10.png)
+
+```minecraft
+/tp 0 100 0
+/time set night
+/weather clear
+```
+
+```bash
+cd itkids_m5/kadai_10_DT_brightterra
+ls -la
+python original_10.py
+```
+
+ジャングルの場合
+
+[<img src="2023-08-19_12.40.50.png" width="400" >](2023-08-19_12.40.50.png)
+
+```minecraft
+/tp 3189 100 -1419
+/time set day
+/weather clear
+```
+
+```bash
+cd itkids_m5/kadai_10_DT_brightterra
+ls -la
+python original_10.py
+```

@@ -1,9 +1,9 @@
 # マイクラ課題
 
 動作環境
-Minecraft Java版　1．16.5
-forge 36.2.39
-Remotecontrollermod 1.16.5_0.05
+Minecraft Java版　1．16.5  
+forge 36.2.39  
+Remotecontrollermod 1.16.5_0.05  
 
 9. 地面を平らにする
 （yが63以上なら全部消す、yが62なら土になる、yが61以下なら全部石にする）

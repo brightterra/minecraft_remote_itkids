@@ -1,6 +1,6 @@
 # マイクラ課題
 
-動作環境　
+動作環境
 Minecraft Java版　1．16.5
 forge 36.2.39
 Remotecontrollermod 1.16.5_0.05
